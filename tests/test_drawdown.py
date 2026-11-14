@@ -25,7 +25,7 @@ def test_drawdown_doubles():
 
 def test_drawdown_case_one():
     result = drawdown([100, 120, 90, 130])
-    assert result == pytest.approx(-.30)
+    assert result == pytest.approx(-.25)
 
 def test_drawdown_case_two():
     result = drawdown([100])
